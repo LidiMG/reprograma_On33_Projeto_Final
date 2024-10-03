@@ -1,12 +1,12 @@
 # Dados globais de políticas de aborto
 
-Este projeto analisa dados globais acerca de políticas de aborto, utilizando o banco de dados desenvolvido pela *Human Reproduction Programme* (HRP) da *World Health Organization* (WHO) (Oganização Mundial da Saúde (OMS)).
+Este projeto analisa dados globais acerca de políticas de aborto, utilizando o banco de dados desenvolvido pela *Human Reproduction Programme* (HRP) da *World Health Organization* (WHO) (Oganização Mundial da Saúde (OMS)). \
 
-```python
-Fonte:
-Human Reproduction Programme
+
+Fonte: \
+**Human Reproduction Programme** \
 https://abortion-policies.srhr.org/
-```
+
 
 ## Introdução
 
