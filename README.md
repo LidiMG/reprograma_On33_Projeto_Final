@@ -47,6 +47,12 @@ Os dados são carregados a partir de um arquivo CSV:
 df_backup = pd.read_csv("Abortion_Dataset.csv")
 ```
 
+Para evitar alterações no conjunto de dados original, uma cópia é feita:
+
+```python
+df_aborto = df_backup.copy()
+```
+
 ## Análise Inicial
 
 A análise inicial inclui a verificação da estrutura dos dados, limpeza prévia do arquivo csv, verificação da integridade dos dados, presença de valores nulos e duplicatas e limpeza de dados. \
