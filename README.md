@@ -4,7 +4,7 @@ Este projeto analisa dados globais acerca de políticas de aborto, utilizando o 
 
 ```python
 Fonte:
-**Human Reproduction Programme**
+Human Reproduction Programme
 https://abortion-policies.srhr.org/
 ```
 
