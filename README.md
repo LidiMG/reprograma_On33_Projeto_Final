@@ -35,6 +35,7 @@ import seaborn as sns
 ## Uso
 
 * Clone este repositório para sua máquina local.
+* Faça download do dataset "Abortion_Dataset.csv"
 * Navegue até o diretório do projeto.
 * Abra o arquivo `ETL_Abortion_Dataset.ipynb` em um ambiente Jupyter Notebook.
 * Execute as células de código sequencialmente para carregar e analisar os dados.
@@ -56,8 +57,8 @@ df_aborto = df_backup.copy()
 ## Análise Inicial
 
 A análise inicial inclui a verificação da estrutura dos dados, limpeza prévia do arquivo csv, incluindo junção de dados de localidade com respectivo país, verificação da integridade dos dados, presença de valores nulos e duplicatas e limpeza de dados. \
+A base final para análise "Abortion_Dataset.csv" é derivada do arquivo "2024-10-survey.xlsx" disponível através da análise detalhada de qualquer país. Neste caso o download foi feito a partir de Brasil. \
 O dataframe com os dados tratados foram salvos em novo arquivo csv "Abortion_Dataset_clean.csv".
-
 
 ### Lidando com Erros
 
