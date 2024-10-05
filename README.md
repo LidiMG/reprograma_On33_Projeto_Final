@@ -14,7 +14,7 @@ O *Global Abortion Policies Database* (GAPD) (Banco de Dados de Políticas Globa
 
 ## Objetivo
 
-O objetivo é entender as barreiras enfrentadas por mulheres na obtenção de um aborto seguro em diferentes localidades. \
+O objetivo é entender as barreiras enfrentadas por mulheres na obtenção de um aborto seguro em diferentes países. \
 O GAPD é um banco de dados extenso e bem completo, com, também, acesso a documentos que embasam as respostas do questionário utilizado para o levantamento. Ao todo são 30 questões, contudo nesta análise focaremos em apenas 3 (entre parênteses a correspondência no questionário original):
 
 * Aborto permitido a partir de pedido da mulher (1)
@@ -55,7 +55,7 @@ df_aborto = df_backup.copy()
 
 ## Análise Inicial
 
-A análise inicial inclui a verificação da estrutura dos dados, limpeza prévia do arquivo csv, verificação da integridade dos dados, presença de valores nulos e duplicatas e limpeza de dados. \
+A análise inicial inclui a verificação da estrutura dos dados, limpeza prévia do arquivo csv, incluindo junção de dados de localidade com respectivo país, verificação da integridade dos dados, presença de valores nulos e duplicatas e limpeza de dados. \
 O dataframe com os dados tratados foram salvos em novo arquivo csv "Abortion_Dataset_clean.csv".
 
 
